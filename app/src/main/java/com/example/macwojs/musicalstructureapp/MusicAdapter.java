@@ -37,7 +37,7 @@ public class MusicAdapter extends ArrayAdapter<Music>{
         View listItemView = convertView;
         if(listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, true);
+                    R.layout.list_item, parent, false);
         }
 
         // Get the {@link AndroidFlavor} object located at this position in the list
