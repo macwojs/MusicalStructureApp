@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+
+    <string name="choose_song">Choose song!</string>
+    <string name="play">Play</string>
+    <string name="cover">Cover</string>
+</resources>
