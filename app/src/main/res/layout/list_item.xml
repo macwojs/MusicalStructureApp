@@ -5,12 +5,11 @@
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/activity_horizontal_margin"
-    android:layout_marginRight="@dimen/activity_horizontal_margin"
-    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-    android:layout_marginTop="@dimen/activity_vertical_margin"
-    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_gravity="center_horizontal"
     android:gravity="center_horizontal"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
     >
 
     <ImageView
@@ -20,6 +19,7 @@
         android:layout_height="70dp"
         tools:src="@tools:sample/avatars"
         android:gravity="start"
+        android:layout_marginBottom="10dp"
         >
 
     </ImageView>
@@ -31,7 +31,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center_vertical"
         >
 
         <TextView
@@ -48,6 +47,11 @@
             tools:text="Ed Sherann"
             />
     </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
     <ImageView
         android:id="@+id/play_image_view"

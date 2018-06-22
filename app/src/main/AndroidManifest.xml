@@ -18,7 +18,7 @@
         </activity>
 
         <activity
-            android:name=".Choose"
+            android:name=".ChooseActivity"
             android:label="@string/choose_song"
             android:parentActivityName=".MainActivity">
 
