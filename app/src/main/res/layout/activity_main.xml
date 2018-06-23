@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center_horizontal"
+    >
+
+<RelativeLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
@@ -13,9 +20,16 @@
         android:layout_height="wrap_content"
         android:text="@string/choose_song"
         android:layout_centerInParent="true"
-        android:textSize="35sp"
+        android:textSize="25sp"
+        android:textColor="@color/textPrimary"
+        android:textStyle="bold"
         android:layout_marginTop="@dimen/main_top_margin"
         android:background="@drawable/button_bg"
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
         />
 
 </RelativeLayout>
+</LinearLayout>

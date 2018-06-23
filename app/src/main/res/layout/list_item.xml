@@ -38,12 +38,15 @@
             android:id="@+id/title_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
             tools:text="Wish you where here"
             />
         <TextView
             android:id="@+id/artist_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/textSecondary"
             tools:text="Ed Sherann"
             />
     </LinearLayout>
@@ -60,7 +63,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="25dp"
         android:gravity="end"
-        android:src="@mipmap/ic_play"
+        android:src="@drawable/ic_play"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         >

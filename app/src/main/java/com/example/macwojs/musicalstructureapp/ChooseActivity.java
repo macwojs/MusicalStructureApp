@@ -39,10 +39,14 @@ public class ChooseActivity extends AppCompatActivity {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //Object o = listView.getItemAtPosition(position);
-                Object o  = parent.getItemAtPosition(position);
 
+                Intent playerActivity = new Intent(ChooseActivity.this, PlayerActivity.class);
 
+                playerActivity.putExtra("title",musics.get(position).getmTitle());
+                playerActivity.putExtra("artist",musics.get(position).getmArtist());
+                playerActivity.putExtra("src",musics.get(position).getmSrc());
+
+                startActivity(playerActivity);
             }
         });
 

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    >
+
+    <ImageView
+        android:id="@+id/cover_image_view"
+        android:layout_width="@dimen/player_cover_size"
+        android:layout_height="@dimen/player_cover_size"
+        tools:src="@tools:sample/avatars"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary"
+        tools:text="Wish You Where Here"
+        />
+
+    <TextView
+        android:id="@+id/artist_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/textSecondary"
+        tools:text="Pink Floyd"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/player_switch_button_size"
+            android:layout_height="@dimen/player_switch_button_size"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_prev"
+            />
+
+        <ImageView
+            android:id="@+id/play_button"
+            android:layout_width="@dimen/player_play_button_size"
+            android:layout_height="@dimen/player_play_button_size"
+            android:src="@drawable/ic_play"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/player_switch_button_size"
+            android:layout_height="@dimen/player_switch_button_size"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_next"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

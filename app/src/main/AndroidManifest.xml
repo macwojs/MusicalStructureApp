@@ -28,6 +28,17 @@
                 android:value=".MainActivity" />
         </activity>
 
+        <activity
+            android:name=".PlayerActivity"
+            android:label="@string/choose_song"
+            android:parentActivityName=".ChooseActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChooseActivity" />
+        </activity>
+
     </application>
 
 </manifest>
