@@ -58,6 +58,7 @@
         android:gravity="center"
         >
 
+        <!-- The icons come from the https://icons8.com/ site and are under https://creativecommons.org/licenses/by-nd/3.0/ license -->
         <ImageView
             android:layout_width="@dimen/player_switch_button_size"
             android:layout_height="@dimen/player_switch_button_size"

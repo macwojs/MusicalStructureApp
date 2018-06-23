@@ -56,6 +56,7 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
+    <!-- The icons come from the https://icons8.com/ site and are under https://creativecommons.org/licenses/by-nd/3.0/ license -->
     <ImageView
         android:id="@+id/play_image_view"
         android:contentDescription="@string/play"
