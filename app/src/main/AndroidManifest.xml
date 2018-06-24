@@ -30,7 +30,7 @@
 
         <activity
             android:name=".PlayerActivity"
-            android:label="@string/choose_song"
+            android:label="@string/player"
             android:parentActivityName=".ChooseActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
